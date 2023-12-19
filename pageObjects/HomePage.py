@@ -7,6 +7,7 @@ class HomePage():
     lnk_login_linktext = "Login"
 
     def __init__(self, driver):
+
         self.driver = driver
 
     def clickMyAccount(self):
